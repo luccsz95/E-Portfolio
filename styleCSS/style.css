@@ -89,7 +89,13 @@ section h2 {
 
 .index-global {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Affiche 5 colonnes de largeur égale */
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.index-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Affiche les cartes sur une seule ligne */
     gap: 20px;
 }
 
@@ -97,9 +103,15 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+} 
+
+.card{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
-.card, .card-me{
+.card-me{
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -196,6 +208,10 @@ section h2 {
     }
 
     .index-global {
+        grid-template-columns: 1fr;
+    }
+
+    .index-card {
         grid-template-columns: 1fr;
     }
 

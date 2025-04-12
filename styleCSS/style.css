@@ -62,12 +62,14 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.7s ease;
 }
 
 nav a:hover {
-    color: #007BFF;
-}
+    color: #ddd;
+    text-decoration: underline; 
+    transition: color 0.7s ease;
+} 
 
 /* Page Content */
 .page {
@@ -109,17 +111,18 @@ section h2 {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    transition: box-shadow 0.7s ease;
 }
 
 .card-me{
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    transition: box-shadow 0.7s ease;
 }
 
-.card:hover {
+.card:hover, .card-me:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.5s ease;
 }
 .card h2 {
     font-size: 1.5rem;

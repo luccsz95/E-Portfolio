@@ -62,13 +62,13 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.7s ease;
+    transition: color 0.5s ease;
 }
 
 nav a:hover {
     color: #ddd;
     text-decoration: underline; 
-    transition: color 0.7s ease;
+    transition: color 0.5s ease;
 } 
 
 /* Page Content */

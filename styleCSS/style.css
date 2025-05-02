@@ -75,7 +75,7 @@ nav a:hover {
 .page {
     padding: 20px;
     flex: 1;
-}
+} 
 
 section {
     background-color: #fff;
@@ -137,6 +137,20 @@ section h2 {
 .paragraphe-nav {
     font-size: 1rem;
     color: #ddd;
+}
+
+.pptx {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 100%; /* Si besoin */
+    
+}
+
+.pptx iframe {
+    display: block;
+    margin: auto;
 }
 
 /* CV */
